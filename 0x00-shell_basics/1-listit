@@ -1,2 +1,2 @@
-1-listit contains 3, 
-it should be 2
+#!/bin/bash
+1-listit contains 3, it should be 22
