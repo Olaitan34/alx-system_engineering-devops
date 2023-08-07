@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -na [[numeric]] 
+find . -type d -not -name '.' | wc -
