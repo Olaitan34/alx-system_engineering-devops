@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((WATER + STIR)) bc -l -q -b bestchol
