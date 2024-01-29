@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# I am invisible
+# Highlander
 
-trap echo "I am invincible!!!" SIGTERM
+# print I am invincible!!! when receiving a SIGTERM signal
+trap "echo I am invincible!!!" SIGTERM
 
 while true; do
   echo "To infinity and beyond"
