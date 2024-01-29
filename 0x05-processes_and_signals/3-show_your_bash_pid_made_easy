@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# my gen pid
+# shellcheck disable=SC2009
+pgrep -l bash
