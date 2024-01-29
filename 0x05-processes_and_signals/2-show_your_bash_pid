@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # my total pid
-
+# shellcheck disable=SC2009
 ps -auxf | grep bash 
