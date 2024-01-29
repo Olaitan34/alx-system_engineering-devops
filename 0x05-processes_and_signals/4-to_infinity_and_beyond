@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# this displays pids
+# To infinity and beyond
 
-while True; do
-	echo "To infinity and beyond"
-	sleep 2
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
 done
