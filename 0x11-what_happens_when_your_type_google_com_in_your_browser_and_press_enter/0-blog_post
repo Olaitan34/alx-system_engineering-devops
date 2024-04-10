@@ -1,0 +1,31 @@
+-----------------------------------------------------------------------------------
+Behind the Scenes: What Happens When You Type "https://www.google.com" in Your Browser?
+-----------------------------------------------------------------------------------
+
+Have you ever wondered what really happens when you type a URL into your browser and hit enter? It seems so simple on the surface, but there's a complex web of processes that occur behind the scenes to bring you the webpage you requested. Let's take a journey through the steps involved when you type "https://www.google.com" into your browser's address bar.
+
+1. DNS Request:*
+The journey begins with a DNS (Domain Name System) request. Your browser sends a request to a DNS resolver to translate the human-readable domain name "www.google.com" into the corresponding IP address. This step is crucial for locating the server hosting the website.
+
+2. TCP/IP:*
+Once the IP address is obtained, your browser establishes a TCP/IP connection with the server. TCP/IP, the foundation of internet communication, ensures reliable and ordered delivery of data packets between your browser and the server.
+
+3. Firewall:*
+If there's a firewall in place, it scrutinizes the incoming request to ensure it complies with security policies. Assuming the request passes the firewall checks, the connection proceeds.
+
+4. HTTPS/SSL:*
+If the website uses HTTPS (Hypertext Transfer Protocol Secure), your browser initiates an SSL/TLS handshake. This cryptographic process ensures that the communication between your browser and the server is encrypted and secure. Your browser verifies the server's SSL certificate to establish trust.
+
+5. Load Balancer:*
+High-traffic websites like Google often employ load balancers to distribute incoming requests across multiple servers. Load balancers optimize resource utilization and improve website performance by directing each request to an appropriate server.
+
+6. Web Server:*
+Upon reaching the web server, the HTTP request from your browser is processed. The web server retrieves the necessary files and resources to generate the webpage. In the case of Google, it prepares the HTML, CSS, and JavaScript files for the search page.
+
+7. Application Server:*
+For websites with dynamic content or database interactions, the web server communicates with an application server. The application server executes code, retrieves data from databases, and generates content tailored to your request.
+
+8. Database:*
+If the webpage requires data from a database, the application server queries the database to retrieve the necessary information. The database plays a crucial role in storing and managing data, enabling dynamic functionality on the webpage.
+
+By understanding the intricate steps involved in loading a webpage, you gain insight into the inner workings of the internet. Next time you type a URL into your browser, remember the journey your request takes to bring you the desired content. It's a testament to the remarkable infrastructure and technologies that power the modern web.
