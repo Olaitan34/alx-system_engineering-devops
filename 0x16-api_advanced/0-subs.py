@@ -17,6 +17,8 @@ def number_of_subscribers(subreddit):
     req = requests.get(url, headers={"User-Agent": "Custom"})
 
     if req.status_code == 200:
-        return req.json().get("data").get("subscribers")
+        data = req.json()
+        criber = data["data"]["subbscribers"]
+        return criber
     else:
         return 0
